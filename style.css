@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+html{
+    padding:0;
+    margin:0;
+}
+body{
+    background:  #C4ADC7;
+    background: linear-gradient(120deg, #C4ADC7 0%, #DAE3F5 75%, #5679AA 100%);
+    display: flex;
+    justify-content: center; align-items: center;
+    flex-direction: column; align-content: space-around;
+}
+#free-space{
+    height: 100%;
+    width: 100%;
+}
+
+#main-div{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center; align-items: center;
+    flex-direction: column; align-content: space-between;
+}
+#generated-QRcode{
+    width: 300px;
+    height: 300px;
+}
